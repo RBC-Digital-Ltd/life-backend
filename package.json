@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "eslint .",
     "format": "prettier --check .",
-    "type-check": "tsc --pretty --noEmit"
+    "typecheck": "tsc --pretty --noEmit"
   },
   "repository": {
     "type": "git",
