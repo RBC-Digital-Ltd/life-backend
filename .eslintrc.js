@@ -14,4 +14,14 @@ module.exports = {
     jest: true,
     node: true,
   },
+  rules: {
+    "import/prefer-default-export": "off",
+  },
+  settings: {
+    "import/resolver": {
+      typescript: {
+        project: "./tsconfig.json",
+      },
+    },
+  },
 };

@@ -1,1 +1,1 @@
-console.log("This is a test");
+export const hello = () => 1;
