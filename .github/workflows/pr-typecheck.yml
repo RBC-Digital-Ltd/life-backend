@@ -1,6 +1,8 @@
-name: Lint
+name: Typecheck
 
-concurrency: dev
+concurrency:
+  group: pr-typecheck-${{ github.ref }}
+  cancel-in-progress: true
 
 on: pull_request
 
