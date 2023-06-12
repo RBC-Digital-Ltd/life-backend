@@ -4,7 +4,10 @@
   "description": "Backend for RBC Life Utilities",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "typecheck": "tsc --pretty --noEmit"
   },
   "repository": {
     "type": "git",
