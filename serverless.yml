@@ -1,0 +1,25 @@
+service: life-backend
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+
+functions:
+  monzoCallback:
+    handler: src/monzo/auth/callback/index.handler
+    events:
+      - http:
+          path: monzo/auth/callback
+          method: get
+          cors: true
+
+plugins:
+  - serverless-esbuild
+  - serverless-offline
+
+custom:
+  esbuild:
+    watch:
+      pattern: ["src/**/*.ts"] # match only typescript files in src directory
+      ignore: ["temp/**/*"]
