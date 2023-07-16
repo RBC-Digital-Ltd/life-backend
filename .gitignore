@@ -131,3 +131,6 @@ dist
 
 # esbuild
 .esbuild
+
+# Example Express Directory
+test/
