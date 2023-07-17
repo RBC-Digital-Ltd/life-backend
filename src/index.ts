@@ -1,8 +1,9 @@
 import http from "node:http";
 import logger from "./utils/logger";
+import app from "./app";
 
 const port = process.env.PORT ?? 4000;
-const server = http.createServer();
+const server = http.createServer(app);
 
 const onError = (error: NodeJS.ErrnoException) => {
   if (error.syscall !== "listen") {
