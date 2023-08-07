@@ -4,7 +4,7 @@
 // the only way to test the callback endpoint.
 
 describe("Monzo callback", () => {
-  it("should store the token in the database", () => {
+  test("should store the token in the database", () => {
     expect(true).toBeTrue();
   });
 });
