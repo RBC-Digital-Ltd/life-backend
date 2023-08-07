@@ -1,4 +1,4 @@
-service: test
+service: life-backend
 frameworkVersion: "3"
 
 provider:
