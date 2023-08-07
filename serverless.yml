@@ -11,7 +11,7 @@ functions:
     handler: src/dataGrabbers/sets.handler
     events:
       - schedule:
-          rate: 1 day
+          rate: rate(1 day)
           enabled: false
   api:
     handler: src/monzo/auth/callback/index.handler
