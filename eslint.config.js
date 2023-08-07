@@ -10,4 +10,11 @@ const sheriffOptions = {
   vitest: false,
 };
 
-module.exports = defineFlatConfig([...sheriff(sheriffOptions)]);
+module.exports = defineFlatConfig([
+  ...sheriff(sheriffOptions),
+  {
+    rules: {
+      "@typescript-eslint/require-await": 0,
+    },
+  },
+]);
