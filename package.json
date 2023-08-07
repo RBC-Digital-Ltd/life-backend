@@ -9,7 +9,7 @@
     "format": "prettier --check .",
     "typecheck": "tsc --pretty --noEmit",
     "dev": "serverless offline --reloadHandler",
-    "build": "tsc"
+    "deploy": "serverless deploy"
   },
   "repository": {
     "type": "git",
