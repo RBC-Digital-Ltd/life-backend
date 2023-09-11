@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Backend for RBC Life Utilities",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
