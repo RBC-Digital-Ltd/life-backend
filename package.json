@@ -10,7 +10,8 @@
     "format": "prettier --check .",
     "typecheck": "tsc --pretty --noEmit",
     "dev": "serverless offline --reloadHandler",
-    "deploy": "serverless deploy"
+    "deploy": "serverless deploy",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -42,7 +43,8 @@
     "serverless-esbuild": "^1.48.4",
     "serverless-offline": "^13.2.0",
     "ts-jest": "^29.1.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "@prisma/client": "^5.4.1",

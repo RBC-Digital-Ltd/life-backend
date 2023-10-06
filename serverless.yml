@@ -5,6 +5,12 @@ provider:
   name: aws
   runtime: nodejs18.x
   region: eu-west-1
+  environment:
+    API_VERSION: ${env:API_VERSION}
+
+plugins:
+  - serverless-esbuild
+  - serverless-offline
 
 functions:
   getSets:
@@ -19,7 +25,3 @@ functions:
       - httpApi:
           path: /
           method: get
-
-plugins:
-  - serverless-esbuild
-  - serverless-offline

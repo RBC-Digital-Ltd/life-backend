@@ -36,4 +36,8 @@ jobs:
           aws-region: eu-west-1
 
       - run: npm ci
+
+      - name: Set API Version
+        run: echo "API_VERSION=$(npm pkg get version | xargs echo)-$GITHUB_SHA" >> $GITHUB_ENV
+
       - run: npm run deploy
