@@ -41,7 +41,7 @@
     "prisma": "^5.5.2",
     "serverless": "^3.36.0",
     "serverless-esbuild": "^1.48.5",
-    "serverless-offline": "^13.2.0",
+    "serverless-offline": "^13.2.1",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2",
     "husky": "^8.0.0"
