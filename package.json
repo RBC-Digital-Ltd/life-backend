@@ -29,7 +29,7 @@
     "@types/jest": "^29.5.11",
     "@types/node": "^20.11.4",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
-    "@typescript-eslint/parser": "^6.18.1",
+    "@typescript-eslint/parser": "^6.19.0",
     "esbuild": "^0.19.11",
     "eslint": "^8.56.0",
     "eslint-config-sheriff": "^17.1.0",
