@@ -49,6 +49,6 @@
   "dependencies": {
     "@prisma/client": "^5.10.2",
     "axios": "^1.6.7",
-    "winston": "^3.11.0"
+    "winston": "^3.12.0"
   }
 }
