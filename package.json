@@ -47,7 +47,7 @@
     "husky": "^8.0.0"
   },
   "dependencies": {
-    "@prisma/client": "^5.13.0",
+    "@prisma/client": "^5.14.0",
     "axios": "^1.7.2",
     "winston": "^3.13.0"
   }
