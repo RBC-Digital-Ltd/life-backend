@@ -27,7 +27,7 @@
     "@tsconfig/node20": "^20.1.4",
     "@types/aws-lambda": "^8.10.142",
     "@types/jest": "^29.5.12",
-    "@types/node": "^20.14.11",
+    "@types/node": "^22.1.0",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "esbuild": "^0.20.2",
